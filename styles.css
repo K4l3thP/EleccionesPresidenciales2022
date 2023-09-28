@@ -1,0 +1,194 @@
+body{
+   background-image: url(fondo.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+h1{
+   font-family: 'Roboto Light';
+   font-weight: bold;
+   text-align: center;
+   color: rgb(255, 255, 255);
+}
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(26, 25, 25, 0.90);
+   width: 100%;
+   height: 120px;
+}
+#Dtabla{
+   background-color: rgba(85, 134, 187, 0.432);
+   width: 80%;
+   height: 80%;
+   margin: 10px,0,0,10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+#DEncuestas{
+   background-color: rgba(119, 52, 52, 0.432);
+   width: 80%;
+   height: 80%;
+   margin: 10px,0,0,10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+#DLista{
+   background-color: rgba(85, 134, 187, 0.432);
+   width: 76%;
+   height: 80%;
+   margin: 10px,0px,0px, 10px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding-top: 3%;
+   padding-left: 1cm;
+   padding-right: 1cm;
+   padding-bottom: 3%;
+
+}
+body{
+   display: flex;
+   align-items: center;
+   flex-direction: column; 
+   position: absolute;
+   top: -10px;
+   width: 100%;
+}
+table{
+   background-color: rgb(36, 36, 36);
+   font-size: 12px;
+   font-weight: normal;
+   border-collapse: collapse;
+   width: 75%;
+   white-space: nowrap;
+   border: 1px solid #1a2929;
+   box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.75);
+}
+thead, th, td{
+   border: 1px solid black;
+   text-align: center;
+   font-family: 'Segoe UI', sans-serif;
+   padding: 5px;
+   font-size: 18px;
+   color: white;
+}
+img{
+   width: 280px;
+   height: 280px;
+   border-radius: 50%;
+   border: 1px solid #000;
+}
+.bandera{
+   width: 50%;
+   height: 75px;
+   border-radius: 5px;
+}
+.logo{
+   width: 25%;
+   height: 20%;
+   border-radius: 0px;
+}
+th{
+
+   font-size: 24px;
+   font-family: 'Segoe  UI', sans-serif;
+   background-color: rgba(90, 90, 90, 0.5);
+}
+td{
+   background-color: rgba(143, 143, 143, 0.5);
+}
+h2{
+   color: rgb(0, 0, 0);
+   font-family: 'Roboto Light';
+   font-size: 26px;
+   background-color: rgba(255, 255, 255, 0.452);
+   border-radius: 5px;
+}
+a{
+  text-decoration-line: none;
+  color: white;
+  font-size: 20px;
+}
+a:hover{
+   text-decoration-line: underline;
+}
+footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   background-color: rgba(26, 25, 25, 0.90);
+   align-items: center;
+   width: 100%;
+   height: 150px;
+   font-family: 'Segoe UI', sans-serif;
+}
+p{
+   color: white;
+}
+li{
+   color: rgb(0, 0, 0);
+   font-family: 'Segoe UI', sans-serif;
+   font-size: 20px;
+}
+progress{
+   width: 90%;
+   height: 25px;
+   accent-color: rgb(11, 78, 141);
+}
+#matriz{
+   width: 80%;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   box-shadow: none;
+}
+#burbuja{
+   width: 45%;
+   height: 100%;
+   flex-direction: row;
+   background-color: #ffffff98;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.75);
+} #volver{
+   width: 100%;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   box-shadow: none;
+ }
+ #burbuja_volver{
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff98;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.75);
+ }
+.referencias{
+   font-family: 'Roboto Light';
+   text-decoration-line: none;
+   font-size: 22px;
+   color: rgb(0, 0, 0);
+}
+.referencias:hover{
+   text-decoration-line: underline;
+}
